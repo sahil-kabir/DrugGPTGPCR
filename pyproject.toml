@@ -1,0 +1,26 @@
+[project]
+name = "druggengpcr"
+version = "0.1.0"
+description = "DrugGen finetuning with GPCR ligand classifier as RL reward"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "accelerate>=0.30",
+    "datasets>=2.18",
+    "evaluate>=0.4",
+    "huggingface_hub>=0.23",
+    "ipykernel>=6.29",
+    "jupyterlab>=4.0",
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "peft>=0.11",
+    "protobuf>=4.25",
+    "rdkit>=2023.9",
+    "safetensors>=0.4",
+    "scikit-learn>=1.4",
+    "sentencepiece>=0.2",
+    "torch>=2.2",
+    "tqdm>=4.66",
+    "transformers>=4.40",
+    "trl>=0.8",
+]

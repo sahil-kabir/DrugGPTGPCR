@@ -1,0 +1,9 @@
+*.sav
+*.model
+xgb_rdkit_classify_fp.json
+protein.json
+coded_gpcr_list.csv
+.env
+.cursor
+.venv
+.convert-env
